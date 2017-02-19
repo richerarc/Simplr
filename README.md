@@ -1,7 +1,7 @@
 # Simplr - Simpler HTTP for Swift 3
 ![badge-swift] ![badge-mit] ![badge-platforms]
 
-Simplr is quick and easy to use http library (Thanks to [kittinunf/Fuel](https://github.com/kittinunf/Fuel) for the idea). 
+Simplr is quick and easy to use http library (Thanks to [kittinunf/Fuel](https://github.com/kittinunf/Fuel) and [justhttp/Just](https://github.com/justhttp/Just) for the idea). 
 
 
 [badge-platforms]: https://img.shields.io/badge/platforms-macOS%20%7C%20iOS%20%7C%20watchOS%20%7C%20tvOS-lightgrey.svg
