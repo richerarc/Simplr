@@ -1168,6 +1168,7 @@ public let Simplr = JustOf<HTTP>()
 
 public extension String {
     
+    @discardableResult
     func get(
         params: [String: Any] = [:],
         data: [String: Any] = [:],
@@ -1187,6 +1188,7 @@ public extension String {
         return Simplr.get(self, params: params, data: data, json: json, headers: headers, files: files, auth: auth, cookies: cookies, allowRedirects: allowRedirects, timeout: timeout, URLQuery: URLQuery, requestBody: requestBody, asyncProgressHandler: asyncProgressHandler, asyncCompletionHandler: asyncCompletionHandler)
     }
     
+    @discardableResult
     func post(
         params: [String: Any] = [:],
         data: [String: Any] = [:],
@@ -1206,6 +1208,7 @@ public extension String {
         return Simplr.post(self, params: params, data: data, json: json, headers: headers, files: files, auth: auth, cookies: cookies, allowRedirects: allowRedirects, timeout: timeout, URLQuery: URLQuery, requestBody: requestBody, asyncProgressHandler: asyncProgressHandler, asyncCompletionHandler: asyncCompletionHandler)
     }
     
+    @discardableResult
     func put(
         params: [String: Any] = [:],
         data: [String: Any] = [:],
@@ -1225,6 +1228,7 @@ public extension String {
         return Simplr.put(self, params: params, data: data, json: json, headers: headers, files: files, auth: auth, cookies: cookies, allowRedirects: allowRedirects, timeout: timeout, URLQuery: URLQuery, requestBody: requestBody, asyncProgressHandler: asyncProgressHandler, asyncCompletionHandler: asyncCompletionHandler)
     }
     
+    @discardableResult
     func patch(
         params: [String: Any] = [:],
         data: [String: Any] = [:],
@@ -1244,6 +1248,7 @@ public extension String {
         return Simplr.patch(self, params: params, data: data, json: json, headers: headers, files: files, auth: auth, cookies: cookies, allowRedirects: allowRedirects, timeout: timeout, URLQuery: URLQuery, requestBody: requestBody, asyncProgressHandler: asyncProgressHandler, asyncCompletionHandler: asyncCompletionHandler)
     }
     
+    @discardableResult
     func delete(
         params: [String: Any] = [:],
         data: [String: Any] = [:],
@@ -1263,6 +1268,7 @@ public extension String {
         return Simplr.delete(self, params: params, data: data, json: json, headers: headers, files: files, auth: auth, cookies: cookies, allowRedirects: allowRedirects, timeout: timeout, URLQuery: URLQuery, requestBody: requestBody, asyncProgressHandler: asyncProgressHandler, asyncCompletionHandler: asyncCompletionHandler)
     }
     
+    @discardableResult
     func head(
         params: [String: Any] = [:],
         data: [String: Any] = [:],
@@ -1282,6 +1288,7 @@ public extension String {
         return Simplr.head(self, params: params, data: data, json: json, headers: headers, files: files, auth: auth, cookies: cookies, allowRedirects: allowRedirects, timeout: timeout, URLQuery: URLQuery, requestBody: requestBody, asyncProgressHandler: asyncProgressHandler, asyncCompletionHandler: asyncCompletionHandler)
     }
     
+    @discardableResult
     func options(
         params: [String: Any] = [:],
         data: [String: Any] = [:],
@@ -1301,6 +1308,7 @@ public extension String {
         return Simplr.options(self, params: params, data: data, json: json, headers: headers, files: files, auth: auth, cookies: cookies, allowRedirects: allowRedirects, timeout: timeout, URLQuery: URLQuery, requestBody: requestBody, asyncProgressHandler: asyncProgressHandler, asyncCompletionHandler: asyncCompletionHandler)
     }
     
+    @discardableResult
     func httpRequest(
         _ method: HTTPMethod,
         params: [String: Any] = [:],
