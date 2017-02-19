@@ -1166,7 +1166,7 @@ extension HTTP: URLSessionTaskDelegate, URLSessionDataDelegate {
 
 public let Simplr = JustOf<HTTP>()
 
-extension String {
+public extension String {
     
     func get(
         params: [String: Any] = [:],
