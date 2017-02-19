@@ -740,7 +740,7 @@ extension JustOf {
     )
   }
     
-    func setURLBasePath(url: String) {
+    public func setURLBasePath(url: String) {
         adaptor.setURLBasePath(url: url)
     }
 }
